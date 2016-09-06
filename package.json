@@ -18,10 +18,10 @@
     "jshint": "jshint --reporter=node_modules/jshint-stylish client/src/js client/spec/"
   },
   "dependencies": {
-    "watch_framework": "git://github.com/twlevelup/watch_framework.git#master",
     "backbone": "^1.1.2",
     "css-loader": "^0.23.1",
     "envify": "^3.4.0",
+    "express": "^4.14.0",
     "file-loader": "^0.8.5",
     "generator-watch-page": "git+https://643af40aaeabd70576e5491b6724e7c8a1088dd7:x-oauth-basic@github.com/twlevelup/generator-watch-edition#0.3",
     "handlebars": "^4.0.5",
@@ -37,6 +37,7 @@
     "style-loader": "^0.13.0",
     "underscore": "^1.8.3",
     "url-loader": "^0.5.7",
+    "watch_framework": "git://github.com/twlevelup/watch_framework.git#master",
     "webpack": "^1.12.12",
     "webpack-dev-server": "^1.12.1"
   },
