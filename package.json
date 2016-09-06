@@ -8,7 +8,7 @@
     "url": "https://github.com/twlevelup/watch_edition"
   },
   "scripts": {
-    "start": "webpack-dev-server --host 0.0.0.0 --psort=$PORT --inline --hot",
+    "start": "webpack-dev-server --host 0.0.0.0 --port=$PORT --inline --hot",
     "build": "webpack",
     "test": "karma start",
     "preci": "npm -s run jscs && npm -s run jshint",
