@@ -15,6 +15,10 @@ module.exports = {
     chunkFilename: '[chunkhash].js'
   },
   devtool: 'inline-source-map',
+  devServer: {
+    address: '0.0.0.0',
+    port: process.env.PORT || 8080
+  },
   module: {
     loaders: [
       {
