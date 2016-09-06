@@ -6,11 +6,10 @@ var port = (process.env.PORT || 8080);
 
 var app = express();
 var indexPath = path.join(__dirname, 'index.html');
-var publicPath = express.static(path.join(__dirname, 'public'));
 
-app.use('/public', publicPath);
+app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', function (_, res) {
-    res.sendFile(indexPath)
+    res.sendFile(indexPath);
 });
 
 
